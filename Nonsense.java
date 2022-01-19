@@ -7,7 +7,7 @@ import java.util.Scanner;
  * input and output redirection.
  * 
  * @author Jim Teresco, completed by 
- * @version Spring 2021
+ * @version Spring 2022
  */
 public class Nonsense
 {
