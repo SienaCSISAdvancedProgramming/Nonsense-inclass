@@ -14,8 +14,17 @@ public class Nonsense
 
     public static void main(String args[]) {
      
+        int n = Integer.parseInt(args[0]);
+        ArrayList<String> words = new ArrayList<String>();
         Scanner s = new Scanner(System.in);
-        
+        while (s.hasNext()) {
+            words.add(s.next());
+        }
         s.close();
+        Random r = new Random();
+        for (int i = 0; i < n; i++) {
+            System.out.print(words.get(r.nextInt(words.size())));
+        }
+        System.out.println();
     }
 }
